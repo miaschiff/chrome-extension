@@ -1,0 +1,30 @@
+<html>
+<head>
+	<title>giphy.js demo</title>
+	<script src="giphy.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+
+<body style="background-color:powderblue; padding-top: 150px; padding-bottom: 150px" >
+
+	<div class="card" style="box-shadow: 10px 10px 5px grey; width: 600px; margin: auto; padding: 25px">
+		<center><h1>Welcome to the GIF Generator!</h1></center>
+		<center><h3>By Mia Schiff</h3></center>
+		</br>
+		<h1 id="title"></h1>
+		<span id="giphyme"></span>
+	</br>
+	<center>
+		<div class="input-group mb-3" style="width: 300px">
+			<input type="text" id="search-box" class="form-control" placeholder="Enter Search Text">
+		</div>
+		<button type="button" class="btn btn-success" value="Press for New GIF" onClick="getGif()">New GIF!</button>
+	</center>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "Test extension",
+  "description": "first extension",
+  "version": "1.0.0",
+  "author": "Mia",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_icon": "cloud.png"
+  },
+  "chrome_url_overrides":{
+    "newtab": "newtab.html"
+  },
+  "content_security_policy": "script-src 'self' https://maxcdn.bootstrapcdn.com https://ajax.googleapis.com https://cdnjs.cloudflare.com 'unsafe-inline'; object-src 'self'; child-src = https://maxcdn.bootstrapcdn.com https://ajax.googleapis.com https://cdnjs.cloudflare.com"
+
+}
